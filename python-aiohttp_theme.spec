@@ -7,7 +7,7 @@ Summary:	aiohttp documentation theme
 Summary(pl.UTF-8):	Motyw dokumentacji aiohttp
 Name:		python-aiohttp_theme
 Version:	0.1.6
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/aiohttp-theme/
