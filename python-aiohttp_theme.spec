@@ -6,13 +6,13 @@
 Summary:	aiohttp documentation theme
 Summary(pl.UTF-8):	Motyw dokumentacji aiohttp
 Name:		python-aiohttp_theme
-Version:	0.1.6
-Release:	5
+Version:	0.1.7
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/aiohttp-theme/
-Source0:	https://files.pythonhosted.org/packages/source/a/aiohttp-theme/aiohttp-theme-%{version}.tar.gz
-# Source0-md5:	163f576bae3da0d308c6d3f9f6ce2fc6
+Source0:	https://pypi.debian.net/aiohttp_theme/aiohttp_theme-%{version}.tar.gz
+# Source0-md5:	26db5586cca080fc7ee82582c312f579
 URL:		https://pypi.org/project/aiohttp-theme/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.6
@@ -47,7 +47,7 @@ aiohttp documentation theme, based on Alabaster.
 Motyw dokumentacji aiohttp, oparty na motywie Alabaster.
 
 %prep
-%setup -q -n aiohttp-theme-%{version}
+%setup -q -n aiohttp_theme-%{version}
 
 %build
 %if %{with python2}
